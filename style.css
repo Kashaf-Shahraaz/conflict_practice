@@ -4,3 +4,16 @@
     box-sizing: border-box;
     list-style: none;
 }
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+nav{
+    background-color: darkslategrey;
+    height: 10%;
+}
+footer{
+    background-color: gray;
+    height: 10%;
+}
