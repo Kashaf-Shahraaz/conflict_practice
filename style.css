@@ -13,6 +13,7 @@ body{
 nav{
     background-color: rgb(26, 200, 200);
     height: 10%;
+    border: 2px solid darkslategray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,9 +22,18 @@ main{
     height: 80%;
     background-color: aliceblue;
 }
+aside {
+    height: 100% ;
+    width: 10%;
+    background-color: gray;
+    border: 2px 0px solid darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 footer{
-    background-color: gray;
+    background-color: rgb(196, 196, 196);
     border: 1px solid darkslategray;
     height: 10%;
     display: flex;
