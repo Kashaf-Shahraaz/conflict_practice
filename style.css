@@ -7,13 +7,27 @@
 body{
     height: 100vh;
     width: 100vw;
-    display: flex;
+    color: white;
+
 }
 nav{
-    background-color: darkslategrey;
+    background-color: rgb(26, 200, 200);
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+main{
+    height: 80%;
+    background-color: aliceblue;
+}
+
 footer{
     background-color: gray;
+    border: 1px solid darkslategray;
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
