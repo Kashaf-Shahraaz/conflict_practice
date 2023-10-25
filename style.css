@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+}
+nav{
+    background-color: rgb(26, 200, 200);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 80%;
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: gray;
+    border: 1px solid darkslategray;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
